@@ -1,0 +1,21 @@
+# Basic Information
+title: "Monitoring and Logging Workflow"
+description: "Set up and manage monitoring and logging infrastructure with Prometheus, Grafana, and ELK Stack"
+type: workflow
+
+# External Resources
+link: "https://app.warp.dev/drive/workflow/Monitoring-Logging-Workflow-2Q7tLg1zUDuHTCr"
+
+# Metadata
+author: "hongyi-chen"
+date_added: "2024-03-19"
+
+# Classification
+tags:
+  - monitoring
+  - logging
+  - devops
+  - observability
+
+# Display Settings
+show: true 

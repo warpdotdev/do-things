@@ -1,0 +1,20 @@
+# Basic Information
+title: CI/CD Pipeline Setup
+description: Set up a CI/CD pipeline with GitHub Actions for a Node.js project
+type: prompt # one of prompt, workflow, notebook, folder
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/Clipping-Captioning-a-YT-video-OLu2wkCpHC5Lg1zUDuHTCr
+
+# Metadata
+author: "hongyi-chen" # make sure to put it in quotes
+date_added: 2025-03-19
+
+# Classification
+tags:
+  - devops
+  - github
+  - automation
+
+# Display Settings
+show: true
