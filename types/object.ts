@@ -16,4 +16,4 @@ export interface ObjectData {
   show: boolean;          // Whether to show the object in the UI
 }
 
-export type SortOrder = 'newest' | 'oldest' | null; 
+export type SortOrder = 'newest' | 'oldest' | null;

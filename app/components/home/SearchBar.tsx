@@ -63,4 +63,4 @@ export function SearchBar({ searchTerm, sortOrder, onSearchChange, onSortChange 
       </Card>
     </div>
   );
-} 
+}

@@ -11,13 +11,13 @@ interface CardGridProps {
   onClearFilters: () => void;
 }
 
-export function CardGrid({ 
-  filteredObjects, 
-  selectedBadge, 
-  searchTerm, 
-  sortOrder, 
-  onBadgeClick, 
-  onClearFilters 
+export function CardGrid({
+  filteredObjects,
+  selectedBadge,
+  searchTerm,
+  sortOrder,
+  onBadgeClick,
+  onClearFilters
 }: CardGridProps) {
   return (
     <>
@@ -49,4 +49,4 @@ export function CardGrid({
       </div>
     </>
   );
-} 
+}

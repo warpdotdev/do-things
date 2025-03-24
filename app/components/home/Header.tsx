@@ -44,7 +44,7 @@ export function Header() {
           <p className="text-lg text-muted-foreground space-y-4">
             Discover how members of the Warp team and community are using Warp in their day-to-day development.
             <br />
-            We've curated some of our favorite use-cases below— browse the list, give them a try, and contribute your own.
+            We&apos;ve curated some of our favorite use-cases below— browse the list, give them a try, and contribute your own.
             <br />
             <span className="text-sm font-medium text-gray-600 dark:text-gray-300 mt-4 block">
               Always review and verify the content of any object before running it on your system.
@@ -54,4 +54,4 @@ export function Header() {
       </div>
     </div>
   );
-} 
+}

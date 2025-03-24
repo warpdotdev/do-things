@@ -17,4 +17,4 @@ tags:
   - tag3 # You can add as many tags as needed
 
 # Display Settings
-show: false # Set to true to make this visible in the repository, false otherwise 
+show: false # Set to true to make this visible in the repository, false otherwise

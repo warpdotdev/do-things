@@ -1,5 +1,5 @@
 import { Badge, Button } from "@/app/components/ui";
-import { SortOrder } from "@/types/object"; 
+import { SortOrder } from "@/types/object";
 
 interface FilterBadgesProps {
   selectedBadge: string | null;
@@ -14,7 +14,7 @@ export function FilterBadges({ selectedBadge, searchTerm, sortOrder, onClearFilt
   return (
     <div className="mb-4 flex items-center flex-wrap gap-2">
       <p className="text-sm text-muted-foreground">
-        Filtered by: 
+        Filtered by:
       </p>
       {selectedBadge && (
         <Badge variant="secondary">
@@ -31,8 +31,8 @@ export function FilterBadges({ selectedBadge, searchTerm, sortOrder, onClearFilt
           Date: {sortOrder === 'newest' ? 'Newest first' : 'Oldest first'}
         </Badge>
       )}
-      <Button 
-        variant="outline" 
+      <Button
+        variant="outline"
         size="sm"
         className="cursor-pointer h-6 text-xs px-2"
         onClick={onClearFilters}
@@ -41,4 +41,4 @@ export function FilterBadges({ selectedBadge, searchTerm, sortOrder, onClearFilt
       </Button>
     </div>
   );
-} 
+}

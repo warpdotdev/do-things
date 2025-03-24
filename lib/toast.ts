@@ -10,4 +10,4 @@ export const showErrorToast = (message: string, description?: string) => {
   toast.error(message, {
     description
   });
-}; 
+};

@@ -10,9 +10,9 @@ export function Footer() {
             All Rights Reserved © 2025
           </span>
           <div className="flex items-center gap-4">
-            <Link 
-              href="https://warp.dev" 
-              target="_blank" 
+            <Link
+              href="https://warp.dev"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm"
             >

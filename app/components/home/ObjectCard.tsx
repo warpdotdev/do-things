@@ -3,19 +3,19 @@ import { cn } from "@/lib/utils";
 import { formatDate } from "@/lib/date";
 import { showSuccessToast, showErrorToast } from "@/lib/toast";
 import { ObjectData } from "@/types/object";
-import { 
-  Card, 
-  CardHeader, 
-  CardTitle, 
-  CardDescription, 
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
   CardFooter,
   Button,
   Badge
 } from "@/app/components/ui";
-import { 
-  CopyIcon, 
-  CheckIcon, 
-  CalendarIcon, 
+import {
+  CopyIcon,
+  CheckIcon,
+  CalendarIcon,
   PersonIcon,
   RocketIcon,
   CodeIcon,
@@ -42,7 +42,7 @@ function ObjectTypeIcon({ type }: { type: string }) {
 
 function AuthorLink({ author }: { author: string }) {
   return (
-    <a 
+    <a
       href={`https://github.com/${author}`}
       target="_blank"
       rel="noopener noreferrer"
@@ -57,7 +57,7 @@ function AuthorLink({ author }: { author: string }) {
 
 function DateBadge({ date }: { date: string }) {
   return (
-    <div 
+    <div
       className="text-xs text-muted-foreground whitespace-nowrap flex items-center bg-secondary/30 hover:bg-secondary/40 transition-colors duration-200 px-2 py-1 rounded-md group cursor-default shrink-0"
       title={formatDate(date, 'full')}
       aria-label={`Added on ${formatDate(date, 'full')}`}
@@ -68,22 +68,22 @@ function DateBadge({ date }: { date: string }) {
   );
 }
 
-function TagBadge({ 
-  tag, 
-  isSelected, 
-  onClick 
-}: { 
-  tag: string; 
-  isSelected: boolean; 
+function TagBadge({
+  tag,
+  isSelected,
+  onClick
+}: {
+  tag: string;
+  isSelected: boolean;
   onClick: (e: React.MouseEvent<HTMLSpanElement>) => void;
 }) {
   return (
-    <Badge 
+    <Badge
       variant={isSelected ? "default" : "secondary"}
       className={cn(
         "cursor-pointer transition-all duration-200",
-        isSelected 
-          ? "ring-2 ring-primary/20" 
+        isSelected
+          ? "ring-2 ring-primary/20"
           : "hover:bg-secondary/80"
       )}
       onClick={onClick}
@@ -93,11 +93,11 @@ function TagBadge({
   );
 }
 
-function CopyButton({ 
-  link, 
-  type 
-}: { 
-  link: string; 
+function CopyButton({
+  link,
+  type
+}: {
+  link: string;
   type: string;
 }) {
   const [copying, setCopying] = useState(false);
@@ -107,7 +107,7 @@ function CopyButton({
       setCopying(true);
       await navigator.clipboard.writeText(link);
       showSuccessToast("Copied to clipboard", `${type} link copied successfully`);
-    } catch (err) {
+    } catch {
       showErrorToast("Failed to copy", `Could not copy ${type.toLowerCase()} link to clipboard`);
     } finally {
       setTimeout(() => setCopying(false), 1000);
@@ -115,8 +115,8 @@ function CopyButton({
   };
 
   return (
-    <Button 
-      variant="outline" 
+    <Button
+      variant="outline"
       size="icon"
       className={cn(
         "flex-1 cursor-pointer transition-all duration-200",
@@ -155,7 +155,7 @@ export function ObjectCard({ object, selectedBadge, onBadgeClick }: ObjectCardPr
           </CardDescription>
           <div className="flex flex-wrap gap-1.5">
             {object.tags.map((tag, tagIndex) => (
-              <TagBadge 
+              <TagBadge
                 key={tagIndex}
                 tag={tag}
                 isSelected={tag === selectedBadge}
@@ -170,15 +170,15 @@ export function ObjectCard({ object, selectedBadge, onBadgeClick }: ObjectCardPr
       </CardHeader>
       <CardFooter className="pt-0">
         <div className="flex gap-2 w-full">
-          <Button 
-            asChild 
+          <Button
+            asChild
             className="flex-3 transition-colors"
             variant="default"
           >
-            <a 
-              href={object.link} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href={object.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full"
             >
               View {object.type}
@@ -189,4 +189,4 @@ export function ObjectCard({ object, selectedBadge, onBadgeClick }: ObjectCardPr
       </CardFooter>
     </Card>
   );
-} 
+}

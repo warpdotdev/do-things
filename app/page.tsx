@@ -52,19 +52,19 @@ export default function Home() {
   // Memoized values
   const badgeCounts = useMemo(() => {
     const counts: Record<string, number> = {};
-    
+
     objects.forEach(object => {
       object.tags.forEach(tag => {
         counts[tag] = (counts[tag] || 0) + 1;
       });
     });
-    
+
     return Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
   }, [objects]);
 
   const filteredObjects = useMemo(() => {
     const filtered = objects.filter(object => {
-      const matchesSearch = searchTerm === "" || 
+      const matchesSearch = searchTerm === "" ||
         fuzzySearch(searchTerm.toLowerCase(), object.title.toLowerCase()) ||
         fuzzySearch(searchTerm.toLowerCase(), object.description.toLowerCase()) ||
         object.tags.some(tag => fuzzySearch(searchTerm.toLowerCase(), tag.toLowerCase()));
@@ -73,24 +73,24 @@ export default function Home() {
 
       return matchesSearch && matchesTag;
     });
-    
+
     if (sortOrder) {
       return [...filtered].sort((a, b) => {
         if (!a.date_added) return 1;
         if (!b.date_added) return -1;
-        
+
         const dateA = new Date(a.date_added);
         const dateB = new Date(b.date_added);
-        
+
         if (isNaN(dateA.getTime())) return 1;
         if (isNaN(dateB.getTime())) return -1;
-        
-        return sortOrder === 'newest' 
-          ? dateB.getTime() - dateA.getTime() 
+
+        return sortOrder === 'newest'
+          ? dateB.getTime() - dateA.getTime()
           : dateA.getTime() - dateB.getTime();
       });
     }
-    
+
     return filtered;
   }, [objects, selectedBadge, searchTerm, sortOrder]);
 

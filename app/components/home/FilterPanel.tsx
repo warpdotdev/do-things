@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardTitle, CardContent, Button, Badge } from "@/app/components/ui";
+import { Card, CardHeader, CardTitle, CardContent, Badge } from "@/app/components/ui";
 import { cn } from "@/lib/utils";
 
 interface FilterPanelProps {
@@ -39,12 +39,12 @@ export function FilterPanel({ badgeCounts, selectedBadge, onBadgeClick, onClearF
                   onClick={() => onBadgeClick(badge)}
                   aria-label={`Filter by ${badge} (${count} items)`}
                 >
-                  <Badge 
+                  <Badge
                     variant={selectedBadge === badge ? "default" : "secondary"}
                     className={cn(
                       "cursor-pointer transition-all duration-200",
-                      selectedBadge === badge 
-                        ? "ring-2 ring-primary/20" 
+                      selectedBadge === badge
+                        ? "ring-2 ring-primary/20"
                         : "hover:bg-secondary/80"
                     )}
                   >
@@ -59,4 +59,4 @@ export function FilterPanel({ badgeCounts, selectedBadge, onBadgeClick, onClearF
       </CardContent>
     </Card>
   );
-} 
+}

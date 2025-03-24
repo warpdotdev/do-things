@@ -1,5 +1,5 @@
 export const formatDate = (date: string, format: 'short' | 'full' = 'short'): string => {
-  const options: Intl.DateTimeFormatOptions = format === 'full' 
+  const options: Intl.DateTimeFormatOptions = format === 'full'
     ? {
         weekday: 'long',
         year: 'numeric',
@@ -12,4 +12,4 @@ export const formatDate = (date: string, format: 'short' | 'full' = 'short'): st
         day: 'numeric'
       };
   return new Date(date).toLocaleDateString('en-US', options);
-}; 
+};

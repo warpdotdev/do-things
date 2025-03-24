@@ -18,7 +18,7 @@ export function fuzzySearch(searchTerm: string, text: string): boolean {
   // Convert to lowercase for case-insensitive search
   const term = searchTerm.toLowerCase()
   const target = text.toLowerCase()
-  
+
   // Check if the target contains the search term
   return target.includes(term)
 }
