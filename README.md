@@ -25,23 +25,27 @@ Whether you're a seasoned developer or just getting started with Warp, these exa
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v20 or higher recommended for Next.js 15)
 - npm or yarn
 - Git
 
 ### Local Development Setup
+
 1. Clone the repository (choose one method):
+
    ```bash
    # Using HTTPS
    git clone https://github.com/warpdotdev/do-things.git
-   
+
    # Or using SSH
    git clone git@github.com:warpdotdev/do-things.git
-   
+
    cd do-things
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -49,6 +53,7 @@ Whether you're a seasoned developer or just getting started with Warp, these exa
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    # or
@@ -67,6 +72,7 @@ Each example in the collection is a Warp Drive object that you can use directly 
 - **Folders**: Collections of related objects
 
 To use any example:
+
 1. Click on the example card to open its Warp Drive link
 2. The object will open directly in your Warp
 3. Follow the instructions in the object to accomplish your task
