@@ -1,0 +1,17 @@
+# Basic Information
+title: Respond to PR Comments
+description: Grab the most recent set of PR comments and try to fix them, getting user input where necessary
+type: Prompt
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/Respond-to-PR-comments-hs5f9cwU4D6ABvcU7IgldQ
+
+# Metadata
+author: "warpdotdev"
+date_added: 2025-03-25
+
+# Classification
+tags:
+  - git
+  - github
+  - code-review

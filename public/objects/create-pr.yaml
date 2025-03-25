@@ -1,0 +1,17 @@
+# Basic Information
+title: Create PR from Open Changes
+description: Write commit messages, add a sensible PR description, push to github, and open the request in browser
+type: Prompt
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/Make-a-PR-from-my-open-changes-LCU5MfgOi6I3KCEC0Aaxpg
+
+# Metadata
+author: "warpdotdev"
+date_added: 2025-03-25
+
+# Classification
+tags:
+  - git
+  - github
+  - pull-request

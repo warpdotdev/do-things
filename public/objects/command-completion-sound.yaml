@@ -1,0 +1,17 @@
+# Basic Information
+title: Command Completion Sound
+description: Use a sound sourced from a YouTube video to play whenever a long-running command finishes
+type: Prompt
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/Sound-for-long-running-command-Qy0XRFi0IMuA1J36kwOEbQ
+
+# Metadata
+author: "warpdotdev"
+date_added: 2025-03-25
+
+# Classification
+tags:
+  - notifications
+  - audio
+  - productivity

@@ -1,0 +1,17 @@
+# Basic Information
+title: George Washington Mode
+description: Create a rule that makes Agent Mode speak to you like George Washington, with a mix of his famous quotes
+type: Prompt
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/George-Mode-tPyEzbgt7lmZ1HQISgF9gA
+
+# Metadata
+author: "warpdotdev"
+date_added: 2025-03-25
+
+# Classification
+tags:
+  - personality
+  - customization
+  - fun

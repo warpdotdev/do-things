@@ -1,0 +1,18 @@
+# Basic Information
+title: Video Processing Workflow
+description: Download, clip, and add captions to a YouTube video using ffmpeg and Whispr
+type: Workflow # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/Clipping-Captioning-a-YT-video-OLu2wkCpHC5Lg1zUDuHTCr
+
+# Metadata
+author: "hongyi-chen" # make sure to put it in quotes
+date_added: 2025-03-25
+
+# Classification
+tags:
+  - video-processing
+  - ffmpeg
+  - whispr
+  - youtube

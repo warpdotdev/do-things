@@ -141,16 +141,16 @@ export function ObjectCard({ object, selectedBadge, onBadgeClick }: ObjectCardPr
       <CardHeader className="pb-0">
         <div className="flex flex-col gap-3">
           <div className="flex justify-between items-start gap-3">
-            <CardTitle className="text-base font-semibold flex items-center gap-2">
+            <CardTitle className="text-base font-semibold flex items-center gap-2 break-words w-full">
               <ObjectTypeIcon type={object.type} />
-              {object.title}
+              <span className="break-words min-w-0">{object.title}</span>
             </CardTitle>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <AuthorLink author={object.author} />
             <DateBadge date={object.dateAdded} />
           </div>
-          <CardDescription className="text-sm">
+          <CardDescription className="text-sm break-words min-w-0">
             {object.description}
           </CardDescription>
           <div className="flex flex-wrap gap-1.5">
