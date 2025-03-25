@@ -1,4 +1,4 @@
-# Do More Things with Warp
+# Do Things with Warp
 
 <p align="center">
     <a href="https://app.warp.dev/get_warp">
@@ -18,11 +18,45 @@
 
 ## Introduction
 
-Welcome to the Do More Things with Warp repository! This is a community-driven collection of practical prompts and examples for [Warp's](https://warp.dev) Agent Mode, as well as [Warp Drive](https://docs.warp.dev/features/warp-drive) objects. These examples showcase how developers can leverage Warp's AI capabilities to streamline their workflow, automate tedious tasks, and solve common development challenges.
+Welcome to the Do Things with Warp repository! This is a community-driven collection of practical prompts and examples for [Warp's](https://warp.dev) Agent Mode, as well as [Warp Drive](https://docs.warp.dev/features/warp-drive) objects.
 
-Whether you're a seasoned developer or just getting started with Warp, these examples will help you discover new ways to enhance your terminal experience and boost your productivity.
+These examples showcase how developers can leverage Warp's AI capabilities to optimize their workflow, automate tedious tasks, and solve common development challenges.
 
-## Getting Started
+## Live Website
+
+Check out the live website at [dothings.warp.dev](https://dothings.warp.dev) to explore and discover new ways to use Warp.
+
+## Contributing Guidelines
+
+We welcome contributions from the community! Here's how you can contribute:
+
+### How to Submit New Objects
+
+1. **Create a new branch** for your contribution
+2. **Create a new entry** by:
+   - Copying [duplicate-me.yaml](https://github.com/warpdotdev/do-things/blob/main/public/objects/duplicate-me.yaml) to a new file with a descriptive name (e.g., `my-awesome-pack.yaml`)
+   - Fill in all the required fields following the template's comments
+   - Make sure to rename the file appropriately before committing
+3. **Ensure your entry is:**
+   - Clear and concise
+   - Provides a real-world use case
+   - Includes relevant tags
+   - Has appropriate attribution
+   - Has a valid Warp Drive link with public sharing enabled
+4. **Submit a pull request** to the main branch with a clear description of your object
+
+### Important Notes for Contributors
+
+- The Warp team will review all submissions
+- Make sure your Warp Drive object link has sharing turned on for "Anyone with the link can view". To do so, click "Share" on the object and change "Anyone with the link" to "Can View"
+- All submissions should be original content or properly attributed
+- We reserve the right to modify or reject submissions at our discretion
+
+---
+
+## Local Development
+
+If you'd like to contribute or run this project locally, here's how to get started:
 
 ### Prerequisites
 
@@ -30,7 +64,7 @@ Whether you're a seasoned developer or just getting started with Warp, these exa
 - npm or yarn
 - Git
 
-### Local Development Setup
+### Setup Steps
 
 1. Clone the repository (choose one method):
 
@@ -62,7 +96,7 @@ Whether you're a seasoned developer or just getting started with Warp, these exa
 
 4. Open your browser and navigate to `http://localhost:3000` to view the website.
 
-## How to Use These Examples
+## Using Warp Drive Objects
 
 Each example in the collection is a Warp Drive object that you can use directly in Warp. There are four types of objects:
 
@@ -81,39 +115,12 @@ To use any example:
 
 Learn more about Warp Drive objects in our [documentation](https://docs.warp.dev/warp-drive).
 
-## Contributing Guidelines
-
-We welcome contributions from the community! Here's how you can contribute:
-
-### How to Submit New Objects
-
-1. **Fork this repository** and create a new branch for your contribution
-2. **Create a new pack** by:
-   - Copying [duplicate-me.yaml](https://github.com/warpdotdev/do-things/blob/main/public/objects/duplicate-me.yaml) to a new file with a descriptive name (e.g., `my-awesome-pack.yaml`)
-   - Fill in all the required fields following the template's comments
-   - Make sure to rename the file appropriately before committing
-3. **Ensure your pack is:**
-   - Clear and concise
-   - Provides a real-world use case
-   - Includes relevant tags
-   - Has appropriate attribution
-   - Has a valid Warp Drive link with public sharing enabled
-4. **Submit a pull request** to the main branch with a clear description of your object
-
-### Important Notes for Contributors
-
-- The Warp team will review all submissions
-- Once accepted, your pack will be copied to our repository and may be modified (e.g., link updates) to ensure long-term availability
-- Make sure your Warp Drive link has public sharing enabled
-- All submissions should be original content or properly attributed
-- We reserve the right to modify or reject submissions at our discretion
-
 ## Community and Support
 
 Join our community channels to discuss Warp packs, share tips, and get help:
 
 - [Discord](https://discord.com/invite/warpdotdev) - Join our community for discussions and support
-- [Twitter](https://x.com/warpdotdev) - Follow us for updates and announcements
+- [X](https://x.com/warpdotdev) - Follow us for updates and announcements
 - [YouTube](https://www.youtube.com/@warpdotdev) - Watch tutorials and demos
 - [LinkedIn](https://www.linkedin.com/company/warpdotdev) - Connect with the team
 - [GitHub](https://github.com/warpdotdev) - Give us feedback and star our projects!

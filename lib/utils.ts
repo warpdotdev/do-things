@@ -1,8 +1,8 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 /**
@@ -13,12 +13,12 @@ export function cn(...inputs: ClassValue[]) {
  */
 export function fuzzySearch(searchTerm: string, text: string): boolean {
   // If search term is empty, return true (show all)
-  if (!searchTerm.trim()) return true
+  if (!searchTerm.trim()) return true;
 
   // Convert to lowercase for case-insensitive search
-  const term = searchTerm.toLowerCase()
-  const target = text.toLowerCase()
+  const term = searchTerm.toLowerCase();
+  const target = text.toLowerCase();
 
   // Check if the target contains the search term
-  return target.includes(term)
+  return target.includes(term);
 }

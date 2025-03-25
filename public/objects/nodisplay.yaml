@@ -1,7 +1,7 @@
 # Basic Information
 title: default value
 description: Set up a CI/CD pipeline with GitHub Actions for a Node.js project
-type: notebook # one of prompt, workflow, notebook, folder
+type: Notebook # Must be one of: Prompt, Workflow, Notebook, Folder
 
 # External Resources
 link: https://app.warp.dev/drive/workflow/Clipping-Captioning-a-YT-video-OLu2wkCpHC5Lg1zUDuHTCr

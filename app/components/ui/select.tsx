@@ -1,9 +1,9 @@
-'use client'
+'use client';
 
-import { type ComponentRef, type ComponentPropsWithoutRef, forwardRef } from 'react'
-import * as Select from '@radix-ui/react-select'
-import { cn } from '@/lib/utils'
-import { ChevronDownIcon } from '@radix-ui/react-icons'
+import { type ComponentRef, type ComponentPropsWithoutRef, forwardRef } from 'react';
+import * as Select from '@radix-ui/react-select';
+import { cn } from '@/lib/utils';
+import { ChevronDownIcon } from '@radix-ui/react-icons';
 
 // Types
 type SelectTriggerProps = ComponentPropsWithoutRef<typeof Select.Trigger>
@@ -11,9 +11,9 @@ type SelectContentProps = ComponentPropsWithoutRef<typeof Select.Content>
 type SelectItemProps = ComponentPropsWithoutRef<typeof Select.Item>
 
 // Base styles
-const selectTriggerStyles = "flex h-10 w-full items-center rounded-md border border-input bg-background pl-3 pr-12 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 relative"
-const selectContentStyles = "relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"
-const selectItemStyles = "relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+const selectTriggerStyles = "flex h-10 w-full items-center rounded-md border border-input bg-background pl-3 pr-12 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 relative";
+const selectContentStyles = "relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2";
+const selectItemStyles = "relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50";
 
 /**
  * SelectTrigger component that displays the selected value and opens the select menu
@@ -31,8 +31,8 @@ const SelectTrigger = forwardRef<ComponentRef<typeof Select.Trigger>, SelectTrig
       </Select.Icon>
     </Select.Trigger>
   )
-)
-SelectTrigger.displayName = Select.Trigger.displayName
+);
+SelectTrigger.displayName = Select.Trigger.displayName;
 
 /**
  * SelectContent component that contains the select options
@@ -63,8 +63,8 @@ const SelectContent = forwardRef<ComponentRef<typeof Select.Content>, SelectCont
       </Select.Content>
     </Select.Portal>
   )
-)
-SelectContent.displayName = Select.Content.displayName
+);
+SelectContent.displayName = Select.Content.displayName;
 
 /**
  * SelectItem component that represents a single option in the select menu
@@ -79,12 +79,12 @@ const SelectItem = forwardRef<ComponentRef<typeof Select.Item>, SelectItemProps>
       <Select.ItemText>{children}</Select.ItemText>
     </Select.Item>
   )
-)
-SelectItem.displayName = Select.Item.displayName
+);
+SelectItem.displayName = Select.Item.displayName;
 
 // Re-export Radix UI components with custom names
-const Root = Select.Root
-const Value = Select.Value
+const Root = Select.Root;
+const Value = Select.Value;
 
 export {
   Root as Select,
@@ -92,5 +92,5 @@ export {
   SelectTrigger,
   SelectContent,
   SelectItem
-}
+};
 

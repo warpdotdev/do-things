@@ -10,12 +10,11 @@ import yaml from 'js-yaml';
 interface YamlObject {
   title: string;
   description: string;
-  type: 'prompt' | 'workflow' | 'notebook' | 'folder';
+  type: keyof typeof ObjectType;
   link: string;
   author: string;
   date_added: string;
   tags: string[];
-  show: boolean;
 }
 
 export function GET() {
@@ -24,7 +23,7 @@ export function GET() {
     const files = fs.readdirSync(objectsDir);
 
     const objects: ObjectData[] = files
-      .filter(file => file.endsWith('.yaml'))
+      .filter(file => file.endsWith('.yaml') && file !== 'duplicate-me.yaml') // exclude duplicate-me.yaml
       .map(file => {
         const filePath = path.join(objectsDir, file);
         const content = fs.readFileSync(filePath, 'utf-8');
@@ -36,22 +35,20 @@ export function GET() {
         }
 
         // Validate type is one of the allowed values
-        if (!['prompt', 'workflow', 'notebook', 'folder'].includes(data.type)) {
-          throw new Error(`Invalid type "${data.type}" in ${file}. Must be one of: prompt, workflow, notebook, folder`);
+        if (!Object.keys(ObjectType).includes(data.type)) {
+          throw new Error(`Invalid type "${data.type}" in ${file}. Must be one of: ${Object.keys(ObjectType).join(', ')}`);
         }
 
         return {
           title: data.title,
           description: data.description,
-          type: data.type.charAt(0).toUpperCase() + data.type.slice(1) as ObjectType, // e.g convert from "workflow" to "Workflow," for copy purposes
+          type: ObjectType[data.type],
           link: data.link,
           tags: data.tags || [],
-          date_added: data.date_added,
-          author: data.author,
-          show: data.show ?? true // Default to true if not specified
+          dateAdded: data.date_added,
+          author: data.author
         };
-      })
-      .filter(object => object.show); // Filter out objects where show is false
+      });
 
     return NextResponse.json(objects);
   } catch (error) {

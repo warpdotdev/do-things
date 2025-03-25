@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     google: 'your-google-site-verification', // TODO: update this
   },
   category: 'technology',
-  keywords: ['warp', 'terminal', 'use cases', 'packs', 'productivity', 'developer tools', 'command line', 'shell'],
+  keywords: ['warp', 'terminal', 'use cases', 'packs', 'productivity', 'developer tools', 'command line', 'shell', 'AI', 'artificial intelligence', 'LLM-assisted coding', 'AI assistant', 'AI workflows', 'AI prompts', 'AI automation', 'AI devtools', 'AI tools', 'AI agents', 'AI agents tools', 'AI agents workflows', 'AI agents prompts', 'AI agents automation', 'AI agents devtools'],
   authors: [{ name: 'hongyi-chen' }],
   creator: 'hongyi-chen',
   publisher: 'Warp',

@@ -1,7 +1,7 @@
 # Basic Information
 title: "Your Title Here" # A clear, concise title for your contribution
 description: "A brief description of what this object does and when to use it" # 1-2 sentences explaining the purpose
-type: prompt # Must be one of: prompt, workflow, notebook, folder
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
 
 # External Resources
 link: "https://your-resource-url-here.com" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
@@ -15,6 +15,3 @@ tags:
   - tag1 # Add relevant tags that describe your contribution. Make them all caps and just one word.
   - tag2 # Common tags include: devops, github, automation, coding, etc.
   - tag3 # You can add as many tags as needed
-
-# Display Settings
-show: false # Set to true to make this visible in the repository, false otherwise

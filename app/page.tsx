@@ -76,11 +76,11 @@ export default function Home() {
 
     if (sortOrder) {
       return [...filtered].sort((a, b) => {
-        if (!a.date_added) return 1;
-        if (!b.date_added) return -1;
+        if (!a.dateAdded) return 1;
+        if (!b.dateAdded) return -1;
 
-        const dateA = new Date(a.date_added);
-        const dateB = new Date(b.date_added);
+        const dateA = new Date(a.dateAdded);
+        const dateB = new Date(b.dateAdded);
 
         if (isNaN(dateA.getTime())) return 1;
         if (isNaN(dateB.getTime())) return -1;

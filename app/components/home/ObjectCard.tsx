@@ -148,7 +148,7 @@ export function ObjectCard({ object, selectedBadge, onBadgeClick }: ObjectCardPr
           </div>
           <div className="flex items-center gap-2">
             <AuthorLink author={object.author} />
-            <DateBadge date={object.date_added} />
+            <DateBadge date={object.dateAdded} />
           </div>
           <CardDescription className="text-sm">
             {object.description}

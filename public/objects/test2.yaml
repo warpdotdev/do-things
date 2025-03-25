@@ -1,7 +1,7 @@
 # Basic Information
 title: "Git Workflow Automation"
 description: "Automate common Git operations like creating branches, committing changes, and pushing to remote with Warp's AI assistance"
-type: workflow
+type: Workflow # Must be one of: Prompt, Workflow, Notebook, Folder
 
 # External Resources
 link: "https://app.warp.dev/drive/workflow/Git-Workflow-Automation-8K2pLg1zUDuHTCr"
@@ -15,6 +15,3 @@ tags:
   - git
   - automation
   - workflow
-
-# Display Settings
-show: true

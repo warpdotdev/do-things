@@ -39,7 +39,7 @@ export function CardGrid({
         ) : (
           filteredObjects.map((object) => (
             <ObjectCard
-              key={`${object.title}-${object.link}-${object.date_added}-${object.author}-${object.type}`}
+              key={`${object.title}-${object.link}-${object.dateAdded}-${object.author}-${object.type}`}
               object={object}
               selectedBadge={selectedBadge}
               onBadgeClick={onBadgeClick}

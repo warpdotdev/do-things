@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { TwitterLogoIcon, DiscordLogoIcon, LinkedInLogoIcon, GitHubLogoIcon, VideoIcon } from '../ui/icons';
+import { XLogoIcon, DiscordLogoIcon, LinkedInLogoIcon, GitHubLogoIcon, VideoIcon } from '../ui/icons';
 
 export function Footer() {
   return (
@@ -25,7 +25,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
-                <TwitterLogoIcon className="h-5 w-5" />
+                <XLogoIcon className="h-5 w-5" />
               </Link>
               <Link
                 href="https://www.youtube.com/@warpdotdev"

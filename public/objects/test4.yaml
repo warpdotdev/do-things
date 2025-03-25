@@ -1,7 +1,7 @@
 # Basic Information
 title: "Kubernetes Deployment Guide"
 description: "Step-by-step guide for deploying applications to Kubernetes clusters with Warp's AI assistance"
-type: notebook
+type: Notebook
 
 # External Resources
 link: "https://app.warp.dev/drive/notebook/Kubernetes-Deployment-Guide-7N4rLg1zUDuHTCr"
@@ -15,6 +15,3 @@ tags:
   - kubernetes
   - devops
   - deployment
-
-# Display Settings
-show: true

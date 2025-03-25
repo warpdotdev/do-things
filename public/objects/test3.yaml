@@ -1,7 +1,7 @@
 # Basic Information
 title: "Docker Development Workflow"
 description: "Streamline Docker development with AI-powered commands for building, running, and managing containers"
-type: notebook
+type: Notebook # Must be one of: Prompt, Workflow, Notebook, Folder
 
 # External Resources
 link: "https://app.warp.dev/drive/notebook/Docker-Development-Workflow-9M3qLg1zUDuHTCr"
@@ -15,6 +15,3 @@ tags:
   - docker
   - devops
   - containers
-
-# Display Settings
-show: true

@@ -1,7 +1,7 @@
 # Basic Information
 title: "Database Management Workflow"
 description: "Collection of AI-powered commands for common database operations across PostgreSQL, MySQL, and MongoDB"
-type: folder
+type: Folder
 
 # External Resources
 link: "https://app.warp.dev/drive/folder/Database-Management-Workflow-5P6sLg1zUDuHTCr"
@@ -16,6 +16,3 @@ tags:
   - sql
   - mongodb
   - devops
-
-# Display Settings
-show: true

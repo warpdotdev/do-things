@@ -1,4 +1,9 @@
-export type ObjectType = 'Prompt' | 'Workflow' | 'Notebook' | 'Folder';
+export enum ObjectType {
+  Prompt = 'Prompt',
+  Workflow = 'Workflow',
+  Notebook = 'Notebook',
+  Folder = 'Folder'
+}
 
 /**
  * Represents an object/prompt in the system
@@ -6,14 +11,27 @@ export type ObjectType = 'Prompt' | 'Workflow' | 'Notebook' | 'Folder';
  */
 export interface ObjectData {
   // Basic Information
-  title: string;           // Title of the object
-  description: string;     // Description of the object
-  type: ObjectType;       // Type of object (Prompt, Workflow, Notebook, or Folder)
-  link: string;           // URL to the object's external resource
-  author: string;         // GitHub username of the author
-  date_added: string;     // Date when the object was added
-  tags: string[];         // Array of tags for categorization
-  show: boolean;          // Whether to show the object in the UI
+
+  /** Title of the object */
+  title: string;
+
+  /** Description of the object */
+  description: string;
+
+  /** Type of object (Prompt, Workflow, Notebook, or Folder) */
+  type: ObjectType;
+
+  /** URL to the object's external resource */
+  link: string;
+
+  /** GitHub username of the author */
+  author: string;
+
+  /** Date when the object was added */
+  dateAdded: string;
+
+  /** Array of tags for categorization */
+  tags: string[];
 }
 
 export type SortOrder = 'newest' | 'oldest' | null;
