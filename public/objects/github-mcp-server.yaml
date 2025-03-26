@@ -1,0 +1,17 @@
+# Basic Information
+title: "GitHub MCP Server"
+description: "Create a new MCP server that fetches and processes GitHub issues using the TypeScript SDK"
+type: Prompt
+
+# External Resources
+link: "https://app.warp.dev/drive/workflow/Github-MCP-Server-Lzu5wcx84NtjjNQAV1EdEF"
+
+# Metadata
+author: "zachlloyd"
+date_added: 2025-03-26
+
+# Classification
+tags:
+  - mcp
+  - typescript
+  - github
