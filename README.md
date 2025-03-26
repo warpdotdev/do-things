@@ -52,7 +52,11 @@ We welcome contributions from the community! Here's how you can contribute:
 - All submissions should be original content or properly attributed
 - We reserve the right to modify or reject submissions at our discretion
 
----
+**Fun Fact**: This entire project was built exclusively using AI tools - specifically Warp's Agent Mode and Dispatch features :)
+
+<p align="center">
+    <img src="./public/images/site-screenshot.png" alt="Screenshot of the Do Things site">
+</p>
 
 ## Local Development
 
@@ -128,7 +132,3 @@ Join our community channels to discuss Warp packs, share tips, and get help:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Fun Fact**: This entire project was built exclusively using AI tools - specifically Warp's Agent Mode and Dispatch features :)
