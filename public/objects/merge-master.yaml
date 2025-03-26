@@ -1,0 +1,17 @@
+# Basic Information
+title: Merge Master into Current Branch
+description: Merge master and help resolve any conflicts one by one
+type: Prompt
+
+# External Resources
+link: https://app.warp.dev/drive/workflow/Merge-master-into-my-current-branch-9R9TqIV95KJeestqkHCD9U
+
+# Metadata
+author: "warpdotdev"
+date_added: 2025-03-25
+
+# Classification
+tags:
+  - git
+  - version-control
+  - merge
