@@ -1,0 +1,17 @@
+# Basic Information
+title: "Fetch PR Comments"
+description: "Fetch and display all pull request comments for the current Git branch using the GitHub CLI"
+type: Prompt
+
+# External Resources
+link: "https://app.warp.dev/drive/workflow/Fetch-PR-comments-ZSKiFG4Uutzz9EvR6eDUob"
+
+# Metadata
+author: "noahzweben"
+date_added: 2024-03-26
+
+# Classification
+tags:
+  - github
+  - pr
+  - cli
