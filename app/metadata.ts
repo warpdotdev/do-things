@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     initialScale: 1,
     minimumScale: 1,
   },
-  metadataBase: new URL('https://explore-warp-prompts.vercel.app'), // TODO: update these links
+  metadataBase: new URL('https://dothings.warp.dev'),
   alternates: {
     canonical: '/',
   },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Do more things with Warp',
-    url: 'https://explore-warp-prompts.vercel.app', // TODO: update these links
+    url: 'https://dothings.warp.dev',
     images: [
       {
         url: '/images/og-image.png',
