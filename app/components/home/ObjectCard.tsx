@@ -19,7 +19,7 @@ import {
   PersonIcon,
   RocketIcon,
   CodeIcon,
-  BackpackIcon,
+  FolderIcon,
   FileTextIcon
 } from "@/app/components/ui/icons";
 
@@ -33,7 +33,7 @@ function ObjectTypeIcon({ type }: { type: string }) {
   const icons = {
     'Prompt': <RocketIcon className="h-4 w-4 text-muted-foreground" />,
     'Workflow': <CodeIcon className="h-4 w-4 text-muted-foreground" />,
-    'Folder': <BackpackIcon className="h-4 w-4 text-muted-foreground" />,
+    'Folder': <FolderIcon className="h-4 w-4 text-muted-foreground" />,
     'Notebook': <FileTextIcon className="h-4 w-4 text-muted-foreground" />
   };
 

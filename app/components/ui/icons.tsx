@@ -16,7 +16,7 @@ import {
   VideoIcon as RadixVideoIcon
 } from "@radix-ui/react-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { NewTwitterIcon, FolderIcon } from "@hugeicons/core-free-icons";
+import { NewTwitterIcon, FolderIcon as HugeiconsFolderIcon } from "@hugeicons/core-free-icons";
 
 // Re-export icons
 export const CalendarIcon = RadixCalendarIcon;
@@ -27,8 +27,8 @@ export const CheckIcon = RadixCheckIcon;
 export const PersonIcon = RadixPersonIcon;
 export const RocketIcon = RadixRocketIcon;
 export const CodeIcon = RadixCodeIcon;
-export const BackpackIcon = (props: Omit<React.ComponentProps<typeof HugeiconsIcon>, "icon">) => (
-  <HugeiconsIcon icon={FolderIcon} {...props} />
+export const FolderIcon = (props: Omit<React.ComponentProps<typeof HugeiconsIcon>, "icon">) => (
+  <HugeiconsIcon icon={HugeiconsFolderIcon} {...props} />
 );
 export const FileTextIcon = RadixFileTextIcon;
 export const XLogoIcon = (props: Omit<React.ComponentProps<typeof HugeiconsIcon>, "icon">) => (
