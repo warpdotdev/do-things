@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geist = Geist({
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Toaster />
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
