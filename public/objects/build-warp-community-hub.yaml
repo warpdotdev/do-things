@@ -1,0 +1,17 @@
+# Basic Information
+title: "Build a Warp Community Hub"
+description: "Create a performant web application to showcase Warp objects through community-driven examples."
+type: Prompt
+
+# External Resources
+link: "https://app.warp.dev/drive/workflow/Build-a-Modern-Warp-Community-Hub-Dmz10DJvw4rdGUg6uwFtJD"
+
+# Metadata
+author: "hongyi-chen"
+date_added: "2025-03-26"
+
+# Classification
+tags:
+  - typescript
+  - nextjs
+  - shadcn
