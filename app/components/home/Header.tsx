@@ -7,7 +7,7 @@ import { useTheme } from 'next-themes';
 
 function Logo() {
   const { theme } = useTheme();
-  const logoSrc = theme === 'dark' ? '/images/logo-light.svg' : '/images/logo-dark.svg';
+  const logoSrc = theme === 'light' ? '/images/logo-dark.svg' : '/images/logo-light.svg';
 
   return (
     <a href="https://warp.dev" target="_blank" rel="noopener noreferrer">
