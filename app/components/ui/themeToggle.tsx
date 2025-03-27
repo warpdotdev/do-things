@@ -6,7 +6,6 @@ import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
 export function ThemeToggle() {
   const { theme = "light", setTheme } = useTheme();
-  console.log("Current theme:", theme);
 
   return (
     <Button
