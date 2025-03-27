@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Do more things with Warp - Discover & Share Terminal Use Cases',
+  title: 'Do things with Warp',
   description: 'Explore curated Warp objects from the Warp team and community. Find productivity-boosting workflows, prompts, notebooks, and more, try them out, and share your own.',
   metadataBase: new URL('https://dothings.warp.dev'),
   alternates: {
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
     description: 'Explore curated Warp objects from the Warp team and community. Find productivity-boosting workflows, prompts, notebooks, and more, try them out, and share your own.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'Do more things with Warp',
+    siteName: 'Do things with Warp',
     url: 'https://dothings.warp.dev',
     images: [
       {
         url: '/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Do more things with Warp - Discover and share terminal productivity use cases',
+        alt: 'Do things with Warp - Discover and share terminal productivity use cases',
       },
     ],
   },
