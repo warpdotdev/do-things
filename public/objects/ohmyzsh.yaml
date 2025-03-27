@@ -1,0 +1,17 @@
+# Basic Information
+title: "Oh My Zsh"
+description: "Oh My Zsh is an open source, community-driven framework for managing your zsh configuration"
+type: Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/folder/ohmyzsh-JXbaj8Uth4vFqRrNzMfGHa"
+
+# Metadata
+author: "ohmyzsh"
+date_added: 2025-03-26
+
+# Classification
+tags:
+  - zsh
+  - shell
+  - terminal
