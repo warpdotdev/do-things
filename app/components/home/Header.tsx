@@ -42,7 +42,7 @@ export function Header() {
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Do more things with Warp</h1>
           <p className="text-lg text-muted-foreground space-y-4">
-            Discover how members of the Warp team and community are using Warp in their day-to-day development.
+            Discover how the Warp team and community are using Warp in their day-to-day development.
             <br />
             We&apos;ve curated some of our favorite use-cases below — browse the list, give them a try, and contribute your own.
             <br />
