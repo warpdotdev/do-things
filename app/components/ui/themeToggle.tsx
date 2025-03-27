@@ -5,7 +5,7 @@ import { Button } from "./button";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+  const { theme = "light", setTheme } = useTheme();
 
   return (
     <Button
