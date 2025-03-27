@@ -1,0 +1,17 @@
+# Basic Information
+title: "Initialize any stack project"
+description: "Create a new project from scratch with specified stack, including project structure, implementation, and docs."
+type: Prompt
+
+# External Resources
+link: "https://app.warp.dev/drive/workflow/Initialize-a-project-B32vA8hhLONx1Bj9d1fGn5"
+
+# Metadata
+author: "catalinpit"
+date_added: "2025-03-26"
+
+# Classification
+tags:
+  - setup
+  - initialization
+  - documentation
