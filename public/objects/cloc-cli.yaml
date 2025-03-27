@@ -1,0 +1,18 @@
+# Basic Information
+title: "cloc CLI"
+description: "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages"
+type: Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/folder/cloc-Qioc5LikAbLZLKCwqBr7cV"
+
+# Metadata
+author: "AlDanial"
+date_added: 2025-03-26
+
+# Classification
+tags:
+  - cli
+  - code-analysis
+  - metrics
+  - development-tools

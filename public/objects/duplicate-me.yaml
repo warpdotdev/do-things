@@ -8,9 +8,9 @@ link: "https://your-resource-url-here.com" # URL to the original Warp Drive reso
 
 # Metadata
 author: "your-github-username" # Your GitHub username in quotes
-date_added: "YYYY-MM-DD" # Current date in YYYY-MM-DD format
+date_added: YYYY-MM-DD # Current date in YYYY-MM-DD format
 
-# Classification
+# Classification -- these should all be in lowercase for consistency
 tags:
   - tag1 # Add relevant tags that describe your contribution. Make them all caps and just one word.
   - tag2 # Common tags include: devops, github, automation, coding, etc.

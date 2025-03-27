@@ -1,0 +1,17 @@
+# Basic Information
+title: "Neovim"
+description: "Neovim is a Vim fork that simplifies maintenance, encourages contributions, enables advanced UIs, and maximizes extensibility"
+type: Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/folder/neovim-CAgE1dzobQp16xLS1ES8KW"
+
+# Metadata
+author: "neovim"
+date_added: 2025-03-26
+
+# Classification
+tags:
+  - editor
+  - vim
+  - text-editor

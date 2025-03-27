@@ -1,0 +1,17 @@
+# Basic Information
+title: "Bat CLI Integration" # A clear, concise title for your contribution
+description: "A modern, feature-rich alternative to cat(1) with syntax highlighting, git integration, and smart paging"
+type: Folder # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/folder/-Bat-Warp-Pack-lxhe7HrEwgwpG17mvrFSz1" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "sharkdp" # Your GitHub username in quotes
+date_added: 2025-03-26 # Current date in YYYY-MM-DD format
+
+# Classification
+tags:
+  - cli # Add relevant tags that describe your contribution. Make them all caps and just one word.
+  - tools # Common tags include: devops, github, automation, coding, etc.
+  - productivity # You can add as many tags as needed

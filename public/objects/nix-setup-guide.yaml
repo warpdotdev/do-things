@@ -1,0 +1,17 @@
+# Basic Information
+title: "Nix Setup Guide for macOS"
+description: "A comprehensive guide for setting up and configuring Nix package manager on macOS, including Nix Darwin integration and Homebrew setup"
+type: Notebook
+
+# External Resources
+link: "https://app.warp.dev/drive/notebook/-Quick-Start-Guide-Get-Nix-Package-Manager-Up-and-Running-on-Your-Mac-Vpi8kqExqNKuBQ4I37fwpZ"
+
+# Metadata
+author: "JustSteveKing"
+date_added: 2025-03-26
+
+# Classification
+tags:
+  - nix
+  - macos
+  - package-manager

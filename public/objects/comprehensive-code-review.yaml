@@ -1,0 +1,17 @@
+# Basic Information
+title: "Comprehensive Code Review"
+description: "Analyze code changes using Git diff, considering full codebase context, performance, syntax, maintainability, and adherence to style guides."
+type: Prompt
+
+# External Resources
+link: "https://app.warp.dev/drive/workflow/Review-code-changes-TY5B5DbGeB77VPSnzHLA8f"
+
+# Metadata
+author: "catalinpit"
+date_added: 2025-03-26
+
+# Classification
+tags:
+  - code-review
+  - quality
+  - git
