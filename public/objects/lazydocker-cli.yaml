@@ -1,0 +1,17 @@
+# Basic Information
+title: "Lazydocker CLI"
+description: "A simple terminal UI for both docker and docker-compose, written in Go with the gocui library"
+type: Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/folder/lazydocker-ZOGTNzomAbjg729ZQh6bO5"
+
+# Metadata
+author: "jesseduffield"
+date_added: "2025-03-26"
+
+# Classification
+tags:
+  - docker
+  - go
+  - devops

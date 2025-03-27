@@ -1,0 +1,17 @@
+# Basic Information
+title: "Lazygit CLI"
+description: "A simple terminal UI for git commands. Lazygit aims to make managing git repositories easier"
+type: Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/folder/lazygit-Y0q9pmbCWojls2DrFIQ5Q3"
+
+# Metadata
+author: "jesseduffield"
+date_added: "2025-03-26"
+
+# Classification
+tags:
+  - git
+  - go
+  - version-control
