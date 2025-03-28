@@ -4,7 +4,7 @@ description: Grab the most recent set of PR comments and try to fix them, gettin
 type: Prompt
 
 # External Resources
-link: https://app.warp.dev/drive/prompt/Respond-to-PR-comments-hs5f9cwU4D6ABvcU7IgldQ
+link: "https://app.warp.dev/drive/prompt/Respond-to-PR-comments-hs5f9cwU4D6ABvcU7IgldQ"
 
 # Metadata
 author: "warpdotdev"
