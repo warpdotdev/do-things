@@ -24,7 +24,7 @@ These examples showcase how developers can leverage Warp's AI capabilities to op
 
 ## Live Website
 
-Check out the live website at [dothings.warp.dev](https://dothings.warp.dev) to explore and discover new ways to use Warp.
+Check out the live website at [dothings.warp.dev](https://dothings.warp.dev) to explore and discover new ways to use Warp. Make sure you've updated to the latest version of Warp.
 
 ## Contributing Guidelines
 
