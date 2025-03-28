@@ -4,7 +4,7 @@ description: Write commit messages, add a sensible PR description, push to githu
 type: Prompt
 
 # External Resources
-link: https://app.warp.dev/prompt/workflow/Make-a-PR-from-my-open-changes-LCU5MfgOi6I3KCEC0Aaxpg
+link: https://app.warp.dev/drive/prompt/Make-a-PR-from-my-open-changes-LCU5MfgOi6I3KCEC0Aaxpg
 
 # Metadata
 author: "warpdotdev"
