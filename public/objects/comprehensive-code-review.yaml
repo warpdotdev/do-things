@@ -4,7 +4,7 @@ description: "Analyze code changes using Git diff, considering full codebase con
 type: Prompt
 
 # External Resources
-link: "https://app.warp.dev/prompt/workflow/Review-code-changes-TY5B5DbGeB77VPSnzHLA8f"
+link: "https://app.warp.dev/drive/prompt/Review-code-changes-TY5B5DbGeB77VPSnzHLA8f"
 
 # Metadata
 author: "catalinpit"
