@@ -1,0 +1,17 @@
+title: Write commit message
+description: Ask the AI to write a commit message following a template, diffing the git staged changes
+type: Prompt
+
+# External Resources
+link: https://app.warp.dev/drive/prompt/write-commit-muFHXyQAl82A8Zmz3nFMcE
+
+# Metadata
+author: "albertodeago"
+date_added: 2024-04-04
+
+# Classification
+tags:
+  - git
+  - commit
+  - quality
+  - code-review
