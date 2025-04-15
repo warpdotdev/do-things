@@ -1,0 +1,17 @@
+# Basic Information
+title: "Transcribe a Video" # A clear, concise title for your contribution
+description: "Transcribing a YouTube video, clipping it, and captioning it using Whispr AI" # 1-2 sentences explaining the purpose
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/prompt/Transcribe-a-video-W9ofaQHGtV42G7Tx0bLxNc" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "theRubberDuckiee" # Your GitHub username in quotes
+date_added: 2025-04-01 # Current date in YYYY-MM-DD format
+
+# Classification -- these should all be in lowercase for consistency
+tags:
+  - transcription
+  - video
+  - youtube

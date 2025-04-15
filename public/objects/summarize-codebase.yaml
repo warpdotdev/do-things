@@ -1,0 +1,17 @@
+# Basic Information
+title: "Summarize Codebase" # A clear, concise title for your contribution
+description: "Analyze and summarize a codebase by answering key questions about technologies, features, deployment, AI integrations, UI components, and application structure." # 1-2 sentences explaining the purpose
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/prompt/Summarize-codebase-vZLJpFgptlXMRWEOXboG7q" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "prajwal-tomar" # Your GitHub username in quotes
+date_added: 2025-04-10 # Current date in YYYY-MM-DD format
+
+# Classification -- these should all be in lowercase for consistency
+tags:
+  - code-analysis
+  - documentation
+  - architecture

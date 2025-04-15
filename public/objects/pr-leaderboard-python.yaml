@@ -1,0 +1,18 @@
+# Basic Information
+title: "PR Leaderboard Python" # A clear, concise title for your contribution
+description: "Build a Python web application that creates a real-time engineering management leaderboard for the warp-internal repo, with configurable date ranges and comprehensive metrics. Includes Docker support and modern frontend framework." # 1-2 sentences explaining the purpose
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/prompt/PR-leaderboard-Python-2HgSSd7KdXGLCMK3mZQ38q" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "zachlloyd" # Your GitHub username in quotes
+date_added: 2025-03-17 # Current date in YYYY-MM-DD format
+
+# Classification -- these should all be in lowercase for consistency
+tags:
+  - python
+  - github
+  - metrics
+  - pr

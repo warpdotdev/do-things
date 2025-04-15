@@ -1,0 +1,18 @@
+# Basic Information
+title: "PR Leaderboard CLI" # A clear, concise title for your contribution
+description: "Build a script that generates a leaderboard showing engineering contributions to a specified repository, with metrics for PR submissions, code changes, and review performance. Includes options for time period, repository selection, and graph export." # 1-2 sentences explaining the purpose
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/prompt/PR-leaderboard-CLI-RiqtD8XehjvqhMbL5F8Yl9" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "zachlloyd" # Your GitHub username in quotes
+date_added: 2025-03-17 # Current date in YYYY-MM-DD format
+
+# Classification -- these should all be in lowercase for consistency
+tags:
+  - cli
+  - analytics
+  - metrics
+  - github
