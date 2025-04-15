@@ -1,0 +1,17 @@
+# Basic Information
+title: "Deploy Project to Vercel" # A clear, concise title for your contribution
+description: "Quickly deploy your current project to Vercel using the Vercel CLI. Ideal for frameworks like Next.js, this prompt handles setup and returns your live deployment URL." # 1-2 sentences explaining the purpose
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/prompt/Deploy-project-to-Vercel-tQ7RlXnHoGYkr83gZbIWgB" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "hongyi-chen" # Your GitHub username in quotes
+date_added: 2025-04-15 # Current date in YYYY-MM-DD format
+
+# Classification -- these should all be in lowercase for consistency
+tags:
+  - deployment
+  - vercel
+  - web
