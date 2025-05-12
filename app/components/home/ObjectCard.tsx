@@ -138,7 +138,7 @@ function CopyButton({
 export function ObjectCard({ object, selectedBadge, onBadgeClick }: ObjectCardProps) {
   return (
     <Card className="flex flex-col h-full">
-      <CardHeader className="pb-0">
+      <CardHeader className="pb-0 flex-grow">
         <div className="flex flex-col gap-3">
           <div className="flex justify-between items-start gap-3">
             <CardTitle className="text-base font-semibold flex items-center gap-2 break-words w-full">
