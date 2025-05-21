@@ -10,55 +10,6 @@ link: "https://app.warp.dev/drive/prompt/Minecraft-Server-aHpgfiDsH8X8umcfRMC5nI
 author: "linkfy"
 date_added: 2025-04-24
 
-# Content
-content: |
-  1 - Crea el directorio del server
-  2 - Descarga minectaft 10.20.4
-  3 - Coloca el jar en el directorio
-
-  -------
-
-  4 - Crea la configuracion inicial para el server
-  5 - Haz una prueba de funcionamiento en segundo plano
-
-  -----
-
-  6 - Instala Zerotier
-  7 - Crea una cuenta y red
-  (Estos pasos hazlos interactivos con preguntas al usuario)
-
-  __
-
-  8 - Unete a ella y valida su funcionamiento
-
-  ---
-
-  9 - Crea un panel de administracion en python 
-  llamado admin_panel.py
-  Debe hacer lo siguiente:
-
-  - Iniciar/Activar el Servidor: Lanzar el servidor de Minecraft.
-
-  - Detener/Desactivar el Servidor: Parar el servidor.
-
-  - Reiniciar el Servidor: Reiniciar el proceso del servidor.
-
-  - Unirse a la Red ZeroTier: Conectar (o volver a conectar) a la red.
-
-  - Abandonar la Red ZeroTier: Salir de la red.
-  - Editar Archivos de Configuración: Acceso a los archivos de configuración del servidor.
-  - Actualizar el Panel: Refrescar y verificar el estado actual (incluir IPs de conexión y estado).
-
-  - Enviar Comandos al Servidor: Permitir enviar comandos al servidor de Minecraft.
-
-  - Mostrar Instrucciones de Conexión: Visualizar las instrucciones tanto para la conexión local como por medio de ZeroTier (incluyendo la IP virtual).
-
-  - Salir: Salir del panel.
-
-  Utiliza la libreria Rich de python para que quede mas bonito
-
-  Muestra las IPs del server en un panel tanto local como de la VPN
-
 # Classification
 tags:
   - minecraft
