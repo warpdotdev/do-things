@@ -1,0 +1,19 @@
+# Basic Information
+title: "Expert Git Commit Message Generator" # A clear, concise title for your contribution
+description: "An intelligent Git commit message generator that analyzes changes and creates conventional commit messages following industry standards" # 1-2 sentences explaining the purpose
+type: Prompt # Must be one of: Prompt, Workflow, Notebook, Folder
+
+# External Resources
+link: "https://app.warp.dev/drive/prompt/Git-Commit-Message-Generator-4g5PZzAwn8iGqNlSIAMwGa" # URL to the original Warp Drive resource. Make sure that you have sharing for everyone available.
+
+# Metadata
+author: "nguyenthanhan"
+date_added: 2025-07-19 # Current date in YYYY-MM-DD format
+
+# Classification -- these should all be in lowercase for consistency
+tags:
+  - git # Add relevant tags that describe your contribution. Make them all caps and just one word.
+  - devops # Common tags include: devops, github, automation, coding, etc.
+  - automation # You can add as many tags as needed
+  - coding
+  - workflow
