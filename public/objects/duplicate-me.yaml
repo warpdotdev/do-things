@@ -12,6 +12,6 @@ date_added: YYYY-MM-DD # Current date in YYYY-MM-DD format
 
 # Classification -- these should all be in lowercase for consistency
 tags:
-  - tag1 # Add relevant tags that describe your contribution. Make them all caps and just one word.
+  - tag1 # Add relevant tags that describe your contribution. Use lowercase; multi-word tags can be hyphenated (e.g., code-analysis).
   - tag2 # Common tags include: devops, github, automation, coding, etc.
   - tag3 # You can add as many tags as needed
